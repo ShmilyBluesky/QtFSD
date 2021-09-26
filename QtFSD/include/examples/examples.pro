@@ -2,6 +2,6 @@ TEMPLATE = subdirs
 
 CONFIG += ordered
 
-SUBDIRS = Example4CheckBox \
+SUBDIRS = Example4Plugin \
           Example4QtInstance
 		  

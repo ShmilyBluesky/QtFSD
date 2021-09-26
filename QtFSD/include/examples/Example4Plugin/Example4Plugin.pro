@@ -1,15 +1,16 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2021-09-25T20:37:32
+# Project created by QtCreator 2021-09-26T20:00:06
 #
 #-------------------------------------------------
+include($$PWD/../../QtFSD.pri)
 include($$PWD/../../QtLibCheckBox/include/QtLibCheckBox.pri)
 
 QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = Example4CheckBox
+TARGET = Example4Plugin
 TEMPLATE = app
 DESTDIR += $$PWD/../../../bin
 

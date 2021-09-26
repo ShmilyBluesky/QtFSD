@@ -8,25 +8,25 @@ QCheckBox::indicator {
 }
 
 QCheckBox::indicator:unchecked {
-	image: url(./images/checkbox_unchecked.png);
+	image: url($$PWD/style1/checkbox_unchecked.png);
 }
 
 QCheckBox::indicator:unchecked:hover {
-	image: url(./images/checkbox_unchecked_hover.png);
+	image: url($$PWD/style1/checkbox_unchecked_hover.png);
 }
 
 QCheckBox::indicator:unchecked:pressed {
-	image: url(./images/checkbox_unchecked_pressed.png);
+	image: url($$PWD/style1/checkbox_unchecked_pressed.png);
 }
 
 QCheckBox::indicator:checked {
-	image: url(./images/checkbox_checked.png);
+	image: url($$PWD/style1/checkbox_checked.png);
 }
 
 QCheckBox::indicator:checked:hover {
-	image: url(./images/checkbox_checked_hover.png);
+	image: url($$PWD/style1/checkbox_checked_hover.png);
 }
 
 QCheckBox::indicator:checked:pressed {
-	image: url(./images/checkbox_checked_pressed.png);
+	image: url($$PWD/style1/checkbox_checked_pressed.png);
 }

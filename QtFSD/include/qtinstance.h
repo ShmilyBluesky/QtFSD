@@ -30,6 +30,12 @@ public:
         return pInstance;
     }
 
+    // 是否初始化
+    bool isInited() const
+    {
+        return m_bInited;
+    }
+
     // 保存
     void setObj(Obj obj, const QString& strInstanceName = QString(""))
     {
